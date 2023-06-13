@@ -1,912 +1,332 @@
-<!doctype html>
-<html>
-<head>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>FIMPLY | One page HTML template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="assets/ico/favicon.png">
 
-    <!--Google web fonts-->
-    <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,300,300italic,400italic,600,700,600italic,200,200italic' rel='stylesheet' type='text/css'>    
-    <link href='http://fonts.googleapis.com/css?family=Play:400,700' rel='stylesheet' type='text/css'>
-    
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <title>E-Portfolio</title>
 
-    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 
-    <!-- font awesome-->
-    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/skillset.css">
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
 
+    <script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/modernizr.custom.js"></script>
+	
 
-    <link rel="stylesheet" type="text/css" href="css/owl.carousel.css"> 
-    <link rel="stylesheet" type="text/css" href="css/owl.transitions.css">
-    <link rel="stylesheet" type="text/css" href="css/owl.theme.css">
+	
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
 
-    <link rel="stylesheet" type="text/css" href="style.css">
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <script src="assets/js/html5shiv.js"></script>
+      <script src="assets/js/respond.min.js"></script>
     <![endif]-->
-</head>
+  </head>
 
-<body>
-<!--preloader-->
-    <div id="preloader">
-      <div id="status">&nbsp;</div>
-    </div> 
+  <body data-spy="scroll" data-offset="0" data-target="#theMenu">
+		
+	<!-- Menu -->
+	<nav class="menu" id="theMenu">
+		<div class="menu-wrap">
+			<a href="#home" class="smoothScroll">Home</a>
+			<a href="#intro" class="scroll">Over mezelf</a>
+			<a href="#internship" class="smoothScroll">Stage</a>
+			<a href="#projects" class="smoothScroll">Projecten</a>
+		</div>
+		
+		<!-- Menu button -->
+		<div id="menuToggle"><i class="icon-reorder"></i></div>
+	</nav>
+	
+	<!-- ========== HEADER SECTION ========== -->
+	<section id="home" name="home"></section>
+	<div id="headerwrap">
+		<div class="container">
+			<br>
+			<h1>Welkom</h1>
+			<h2>Op Mijn E-Portfolio</h2>
+			<div class="row">
+				<br>
+				<br>
+				<br>
+				<div class="col-lg-6 col-lg-offset-3">
+				</div>
+			</div>
+			<div class="welcome-text">In dit e-portfolio beschrijf ik onder andere mezelf, het stagebedrijf, wat de stageopdracht was en verschillende projecten die behaald zijn gedurende mijn studiejaren op Thomas More.</div>
+		</div><!-- /container -->
+	</div><!-- /headerwrap -->
+	
+	<!-- ========== WHITE SECTION ========== -->
+	<section id="intro" name="intro"></section>
+	<div id="w">
+		<div class="container">
+			<div class="row">
+				<div class="centered">
+				<h3>IK STEL MIJ GRAAG EERST EVEN VOOR</h3>
+				</h3>
+				</div>
+			</div>
+		</div><!-- /container -->
+	</div><!-- /w -->
+	
+	<!-- ========== SERVICES - GREY SECTION ========== -->
+	<div id="g">
+		<div class="container">
+			<div class="row">
+					<div class="col-6">
+						<div class="image square fit">
+							<img src="assets/img/pic01.jpg" alt="profilePic" id="profile" class="img-fluid"/>
+						</div>
+						<div class="div-cv">
+							<a href="assets/files/CV - Taro Verschueren.pdf" class="btn-cv" target="_blank">Mijn CV</a>
+						</div>
+					</div>
+				<div class="col-6 text">
+					<p>Mijn naam is Taro Verschueren, ben momenteel 22 jaar oud en een laatstejaarsstudent IoT (Internet of Things) aan de Thomas More hogeschool in Geel. Ik ben een doorzetter met een positieve inzet en altijd nieuwsgierig naar de nieuwste technologieën.</p>
+					<p>Als hobby doe ik aan 3D modeling en gebruik hiervoor de software Fusion 360. Al verschillende modellen heb ik ontworpen van een mini huis tot een behuizing voor een Raspberry Pi 4 model B.</p>
+					<p>Mijn contactgegevens zijn:</p>
+					<ul>
+						<li><a href="mailto:taroverschueren@gmail.com">taroverschueren@gmail.com</a></li>
+						<li><a href="https://www.linkedin.com/in/taro-verschueren-95a4711ba/">LinkedIn</a></li>
+					</ul>
+				</div>
+			</div>
+		</div><!-- /container -->
+	</div><!-- /g -->
+	
+	<!-- ========== WHITE SECTION ========== -->
+	<section id="internship" name="internship"></section>
+	<div id="w">
+		<div class="container">
+			<div class="row">
+				<div class="centered">
+					<h3>IK VERTEL U GRAAG OVER MIJN STAGE</h3>
+				</div>
+			</div>
+		</div><!-- /container -->
+	</div><!-- /w -->
 
-<header class="main_header">
-  <div class="row">
-    <div class="content"> <a class="logo" href="#">FIMPLY</a>
-      <div class="mobile-toggle"> <span></span> <span></span> <span></span></div>
-      <nav>
-        <ul class="main_menu">
-          <li><a href=".hero">Home</a></li>
-          <li><a href=".service_area">Service</a></li>
-          <li><a href=".portfolio_area">Portfolio</a></li>
-          <li><a href=".blog_area">Blog</a></li>
-          <li><a href=".price_area">Price</a></li>
-          <li><a href=".testimonial_area">Testimonial</a></li>
-          <li><a href=".contact_area">Contact</a></li>                    
-        </ul>
-      </nav>
-    </div>
-  </div>
-  <!-- END row --> 
-</header>
-
-<div class="carousel fade-carousel slide" data-ride="carousel" data-interval="2000" id="bs-carousel">
-  <!-- Overlay -->
-  <div class="overlay"></div>
-
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner">
-    <div class="item slides active">
-      <div class="slide-1"></div>
-      <div class="hero">
-        <hgroup>
-            <h1>We are <span>creative</span></h1>        
-            <h3>Get start your next awesome project</h3>
-        </hgroup>
-        <button class="btn btn-hero btn-lg" role="button">See all features</button>
-      </div>
-    </div>
-    <div class="item slides">
-      <div class="slide-2"></div>
-      <div class="hero">        
-        <hgroup>
-            <h1>We are <span>smart</span></h1>        
-            <h3>Get start your next awesome project</h3>
-        </hgroup>       
-        <button class="btn btn-hero btn-lg" role="button">See all features</button>
-      </div>
-    </div>
-    <div class="item slides">
-      <div class="slide-3"></div>
-      <div class="hero">        
-        <hgroup>
-            <h1>We are <span>amazing</span></h1>        
-            <h3>Get start your next awesome project</h3>
-        </hgroup>
-        <button class="btn btn-hero btn-lg" role="button">See all features</button>
-      </div>
-    </div>
-  </div> 
-</div>
-
-<div class="service_area">
-  <div class="container">
-    <div class="row">
-      <div class="service_section wow bounceInLeft animated">
-          <div class="col-md-3">
-            <div class="single_service">        
-              <div class="ico"><i class="fa fa-mobile"></i></div>
-              <h2>Fully responsive</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor incididunt ut labore</p>
-            </div>
-          </div>
-
-          <div class="col-md-3">
-            <div class="single_service">        
-              <div class="ico"><i class="fa fa-code"></i></div>          
-              <h2>Customizable file</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor incididunt ut labore</p>
-            </div>
-          </div>
-
-          <div class="col-md-3">
-            <div class="single_service">        
-              <div class="ico"><i class="fa fa-paint-brush"></i></div>         
-              <h2>Superb design</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor incididunt ut labore</p>
-            </div>
-          </div>
-
-          <div class="col-md-3">
-            <div class="single_service">        
-              <div class="ico"><i class="fa fa-heart-o"></i></div>        
-              <h2>Made with love</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor incididunt ut labore</p>
-            </div>
-          </div>
-
-      </div>
-    </div>
-  </div>
-</div><!-- service area end   -->
-
-<div class="work_area">
-  <div class="container">
-    <div class="row">  
-      <div class="work_section">
-        <h1 class="wow bounceInLeft">Functional <span>work Process</span></h1>
-          <div class="col-md-12 wow bounceInRight animated">
-            <div class="bs-example">
-              <ul class="nav nav-tabs">
-                  <li class="active"><a data-toggle="tab" href="#sectionA"><i class="fa fa-lightbulb-o"></i></a></li>
-                  <li><a data-toggle="tab" href="#sectionB"><i class="fa fa-compass"></i></a></li>
-                  <li><a data-toggle="tab" href="#sectionC"><i class="fa fa-cogs"></i></a></li>
-                  <li><a data-toggle="tab" href="#sectionD"><i class="fa fa-paper-plane"></i></a></li>
-                  <li><a data-toggle="tab" href="#sectionE"><i class="fa fa-line-chart"></i></a></li>
-              </ul>
-              <div class="tab-content">
-                  <div id="sectionA" class="tab-pane fade in active">
-                      <h3>Strategy</h3>
-                      <p>Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui. Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth.</p>
-                  </div>
-                  <div id="sectionB" class="tab-pane fade">
-                      <h3>Plan</h3>
-                      <p>Vestibulum nec erat eu nulla rhoncus fringilla ut non neque. Vivamus nibh urna, ornare id gravida ut, mollis a magna. Aliquam porttitor condimentum nisi, eu viverra ipsum porta ut. Nam hendrerit bibendum turpis, sed molestie mi fermentum id. Aenean volutpat velit sem. Sed consequat ante in rutrum convallis. Nunc facilisis leo at faucibus adipiscing.</p>
-                  </div>
-                  <div id="sectionC" class="tab-pane fade">
-                      <h3>Mechanism</h3>
-                      <p>Vestibulum nec erat eu nulla rhoncus fringilla ut non neque. Vivamus nibh urna, ornare id gravida ut, mollis a magna. Aliquam porttitor condimentum nisi, eu viverra ipsum porta ut. Nam hendrerit bibendum turpis, sed molestie mi fermentum id. Aenean volutpat velit sem. Sed consequat ante in rutrum convallis. Nunc facilisis leo at faucibus adipiscing.</p>
-                  </div>
-                  <div id="sectionD" class="tab-pane fade">
-                      <h3>Title</h3>
-                      <p>Vestibulum nec erat eu nulla rhoncus fringilla ut non neque. Vivamus nibh urna, ornare id gravida ut, mollis a magna. Aliquam porttitor condimentum nisi, eu viverra ipsum porta ut. Nam hendrerit bibendum turpis, sed molestie mi fermentum id. Aenean volutpat velit sem. Sed consequat ante in rutrum convallis. Nunc facilisis leo at faucibus adipiscing.</p>
-                  </div>
-                  <div id="sectionE" class="tab-pane fade">
-                      <h3>Workflow</h3>
-                      <p>Vestibulum nec erat eu nulla rhoncus fringilla ut non neque. Vivamus nibh urna, ornare id gravida ut, mollis a magna. Aliquam porttitor condimentum nisi, eu viverra ipsum porta ut. Nam hendrerit bibendum turpis, sed molestie mi fermentum id. Aenean volutpat velit sem. Sed consequat ante in rutrum convallis. Nunc facilisis leo at faucibus adipiscing.</p>
-                  </div>                                                
-              </div>
-            </div>
-          </div>
-      </div>
-    </div>  
-  </div>    
-</div><!-- work area end   -->
-      
-
-
-<div class="getit_area">
-  <div class="container">
-    <div class="row">
-      <div class="getit_section">
-        <h1>The most impressive template you'll find.Get it now!</h1>
-      </div>  
-    </div>
-  </div>
-</div><!--  getit area end -->
-
-
-<div class="portfolio_area">
-  <div class="container">
-      <div class="portfolio_section">
-          <div class="col-md-12 portfolio_top">
-              <h1>Portfolio</h1>
-              <p>OUR TEAM INCLUDES GREAT THINKERS. YOU WOULD LOVE TO WORK WITH THEM AS THEY ARE JUST AMAZING PEOPLE.</p>
-          </div>  
-      </div>
-
-    <ul id="filters" class="clearfix">
-      <li><span class="filter active" data-filter="app card icon logos web">All</span></li>
-      <li><span class="filter" data-filter="app">App</span></li>
-      <li><span class="filter" data-filter="card">Card</span></li>
-      <li><span class="filter" data-filter="icon">Icon</span></li>
-      <li><span class="filter" data-filter="logos">Logo</span></li>
-      <li><span class="filter" data-filter="web">Web</span></li>
-    </ul>
-
-    <div id="portfoliolist">
-      
-      <div class="portfolio logos" data-cat="logos">
-        <div class="portfolio-wrapper">       
-          <img src="img/portfolios/logo/5.jpg" alt="" />
-          <div class="label">
-            <div class="label-text">
-              <a class="text-title">Bird Document</a>
-              <span class="text-category">Logo</span>
-            </div>
-            <div class="label-bg"></div>
-          </div>
-        </div>
-      </div>        
-
-      <div class="portfolio app" data-cat="app">
-        <div class="portfolio-wrapper">     
-          <img src="img/portfolios/app/1.jpg" alt="" />
-          <div class="label">
-            <div class="label-text">
-              <a class="text-title">Visual Infography</a>
-              <span class="text-category">APP</span>
-            </div>
-            <div class="label-bg"></div>
-          </div>
-        </div>
-      </div>    
-      
-      <div class="portfolio web" data-cat="web">
-        <div class="portfolio-wrapper">           
-          <img src="img/portfolios/web/4.jpg" alt="" />
-          <div class="label">
-            <div class="label-text">
-              <a class="text-title">Sonor's Design</a>
-              <span class="text-category">Web design</span>
-            </div>
-            <div class="label-bg"></div>
-          </div>
-        </div>
-      </div>        
-      
-      <div class="portfolio card" data-cat="card">
-        <div class="portfolio-wrapper">     
-          <img src="img/portfolios/card/1.jpg" alt="" />
-          <div class="label">
-            <div class="label-text">
-              <a class="text-title">Typography Company</a>
-              <span class="text-category">Business card</span>
-            </div>
-            <div class="label-bg"></div>
-          </div>
-        </div>
-      </div>  
-            
-      <div class="portfolio app" data-cat="app">
-        <div class="portfolio-wrapper">
-          <img src="img/portfolios/app/3.jpg" alt="" />
-          <div class="label">
-            <div class="label-text">
-              <a class="text-title">Weatherette</a>
-              <span class="text-category">APP</span>
-            </div>
-            <div class="label-bg"></div>
-          </div>
-        </div>
-      </div>      
-      
-      <div class="portfolio card" data-cat="card">
-        <div class="portfolio-wrapper">     
-          <img src="img/portfolios/card/4.jpg" alt="" />
-          <div class="label">
-            <div class="label-text">
-              <a class="text-title">BMF</a>
-              <span class="text-category">Business card</span>
-            </div>
-            <div class="label-bg"></div>
-          </div>
-        </div>
-      </div>  
-      
-      <div class="portfolio card" data-cat="card">
-        <div class="portfolio-wrapper">     
-          <img src="img/portfolios/card/5.jpg" alt="" />
-          <div class="label">
-            <div class="label-text">
-              <a class="text-title">Techlion</a>
-              <span class="text-category">Business card</span>
-            </div>
-            <div class="label-bg"></div>
-          </div>
-        </div>
-      </div>  
-      
-      <div class="portfolio logos" data-cat="logos">
-        <div class="portfolio-wrapper">     
-          <img src="img/portfolios/logo/1.jpg" alt="" />
-          <div class="label">
-            <div class="label-text">
-              <a class="text-title">KittyPic</a>
-              <span class="text-category">Logo</span>
-            </div>
-            <div class="label-bg"></div>
-          </div>
-        </div>
-      </div>                                                                              
-      
-      <div class="portfolio app" data-cat="app">
-        <div class="portfolio-wrapper">     
-          <img src="img/portfolios/app/2.jpg" alt="" />
-          <div class="label">
-            <div class="label-text">
-              <a class="text-title">Graph Plotting</a>
-              <span class="text-category">APP</span>
-            </div>
-            <div class="label-bg"></div>
-          </div>
-        </div>
-      </div>                            
-      
-      <div class="portfolio card" data-cat="card">
-        <div class="portfolio-wrapper">     
-          <img src="img/portfolios/card/2.jpg" alt="" />
-          <div class="label">
-            <div class="label-text">
-              <a class="text-title">QR Quick Response</a>
-              <span class="text-category">Business card</span>
-            </div>
-            <div class="label-bg"></div>
-          </div>
-        </div>
-      </div>        
-
-      <div class="portfolio logos" data-cat="logos">
-        <div class="portfolio-wrapper">     
-          <img src="img/portfolios/logo/6.jpg" alt="" />
-          <div class="label">
-            <div class="label-text">
-              <a class="text-title">Mobi Sock</a>
-              <span class="text-category">Logo</span>
-            </div>
-            <div class="label-bg"></div>
-          </div>
-        </div>
-      </div>                                  
-
-      <div class="portfolio logos" data-cat="logos">
-        <div class="portfolio-wrapper">     
-          <img src="img/portfolios/logo/7.jpg" alt="" />
-          <div class="label">
-            <div class="label-text">
-              <a class="text-title">Village Community Church</a>
-              <span class="text-category">Logo</span>
-            </div>
-            <div class="label-bg"></div>
-          </div>
-        </div>
-      </div>                          
-      
-      <div class="portfolio icon" data-cat="icon">
-        <div class="portfolio-wrapper">     
-          <img src="img/portfolios/icon/4.jpg" alt="" />
-          <div class="label">
-            <div class="label-text">
-              <a class="text-title">Domino's Pizza</a>
-              <span class="text-category">Icon</span>
-            </div>
-            <div class="label-bg"></div>
-          </div>
-        </div>
-      </div>              
-
-      <div class="portfolio web" data-cat="web">
-        <div class="portfolio-wrapper">           
-          <img src="img/portfolios/web/3.jpg" alt="" />
-          <div class="label">
-            <div class="label-text">
-              <a class="text-title">Backend Admin</a>
-              <span class="text-category">Web design</span>
-            </div>
-            <div class="label-bg"></div>
-          </div>
-        </div>
-      </div>                                                
-
-      <div class="portfolio icon" data-cat="icon">
-        <div class="portfolio-wrapper">     
-          <img src="img/portfolios/icon/1.jpg" alt="" />
-          <div class="label">
-            <div class="label-text">
-              <a class="text-title">Instagram</a>
-              <span class="text-category">Icon</span>
-            </div>
-            <div class="label-bg"></div>
-          </div>
-        </div>
-      </div>        
-      
-      <div class="portfolio web" data-cat="web">
-        <div class="portfolio-wrapper">           
-          <img src="img/portfolios/web/2.jpg" alt="" />
-          <div class="label">
-            <div class="label-text">
-              <a class="text-title">Student Guide</a>
-              <span class="text-category">Web design</span>
-            </div>
-            <div class="label-bg"></div>
-          </div>
-        </div>
-      </div>                                  
-
-      <div class="portfolio icon" data-cat="icon">
-        <div class="portfolio-wrapper">
-          <img src="img/portfolios/icon/2.jpg" alt="" />
-          <div class="label">
-            <div class="label-text">
-              <a class="text-title">Scoccer</a>
-              <span class="text-category">Icon</span>
-            </div>
-            <div class="label-bg"></div>
-          </div>
-        </div>
-      </div>                                                                                                                                
-
-      <div class="portfolio icon" data-cat="icon">
-        <div class="portfolio-wrapper">           
-          <img src="img/portfolios/icon/5.jpg" alt="" />
-          <div class="label">
-            <div class="label-text">
-              <a class="text-title">3D Map</a>
-              <span class="text-category">Icon</span>
-            </div>
-            <div class="label-bg"></div>
-          </div>
-        </div>
-      </div>      
-      
-      <div class="portfolio web" data-cat="web">
-        <div class="portfolio-wrapper">           
-          <img src="img/portfolios/web/1.jpg" alt="" />
-          <div class="label">
-            <div class="label-text">
-              <a class="text-title">Note</a>
-              <span class="text-category">Web design</span>
-            </div>
-            <div class="label-bg"></div>
-          </div>
-        </div>
-      </div>                  
-      
-      <div class="portfolio logos" data-cat="logos">
-        <div class="portfolio-wrapper">     
-          <img src="img/portfolios/logo/3.jpg" alt="" />
-          <div class="label">
-            <div class="label-text">
-              <a class="text-title">Native Designers</a>
-              <span class="text-category">Logo</span>
-            </div>
-            <div class="label-bg"></div>
-          </div>
-        </div>
-      </div>                                  
-
-      <div class="portfolio logos" data-cat="logos">
-        <div class="portfolio-wrapper">     
-          <img src="img/portfolios/logo/4.jpg" alt="" />
-          <div class="label">
-            <div class="label-text">
-              <a class="text-title">Bookworm</a>
-              <span class="text-category">Logo</span>
-            </div>
-            <div class="label-bg"></div>
-          </div>
-        </div>
-      </div>                                                        
-      
-      <div class="portfolio icon" data-cat="icon">
-        <div class="portfolio-wrapper">     
-          <img src="img/portfolios/icon/3.jpg" alt="" />
-          <div class="label">
-            <div class="label-text">
-              <a class="text-title">Sandwich</a>
-              <span class="text-category">Icon</span>
-            </div>
-            <div class="label-bg"></div>
-          </div>
-        </div>
-      </div>                                                
-      
-      <div class="portfolio card" data-cat="card">
-        <div class="portfolio-wrapper">     
-          <img src="img/portfolios/card/3.jpg" alt="" />
-          <div class="label">
-            <div class="label-text">
-              <a class="text-title">Reality</a>
-              <span class="text-category">Business card</span>
-            </div>
-            <div class="label-bg"></div>
-          </div>
-        </div>
-      </div>  
-
-      <div class="portfolio logos" data-cat="logos">
-        <div class="portfolio-wrapper">     
-          <img src="img/portfolios/logo/2.jpg" alt="" />
-          <div class="label">
-            <div class="label-text">
-              <a class="text-title">Speciallisterne</a>
-              <span class="text-category">Logo</span>
-            </div>
-            <div class="label-bg"></div>
-          </div>
-        </div>
-      </div>        
-                    
-      
-    </div>
-    
-  </div>
-</div><!-- portfolio area end   -->
-
-<div class="skill_area">
-  <div class="container">
-    <div class="row">
-      <div class="skill_section">
-          <div class="col-md-4">
-            
-            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-              <div class="panel panel-default">
-                <div class="panel-heading" role="tab" id="headingOne">
-                  <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      Why choose us?
-                    </a>
-                  </h4>
-                </div>
-                <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-                  <div class="panel-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                  </div>
-                </div>
-              </div>
-              <div class="panel panel-default">
-                <div class="panel-heading" role="tab" id="headingTwo">
-                  <h4 class="panel-title">
-                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                      Our History
-                    </a>
-                  </h4>
-                </div>
-                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-                  <div class="panel-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                  </div>
-                </div>
-              </div>
-              <div class="panel panel-default">
-                <div class="panel-heading" role="tab" id="headingThree">
-                  <h4 class="panel-title">
-                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                      Behind Us
-                    </a>
-                  </h4>
-                </div>
-                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-                  <div class="panel-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                  </div>
-                </div>
-              </div>
-            </div>            
-          </div>
-          <div class="col-md-8">
-              <h2 class="wow bounceInLeft animated">These are our <span>Fantastic skills</span></h2>
-              <p class="skill_text wow bounceInLeft animated">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</p>
-
-              <main>
-              <h2 id="skills wow bounceInRight animated">The Skills we have</h2>
-              <div class="section skills">
-              <div id="skillset" class="column"> </div>
-              </div>
-              </main>
-          </div>
-      </div>
-    </div>
-  </div>
-</div><!-- skill area end-->
-
-<div class="blog_area">
-  <div class="container">
-    <div class="row">
-      <div class="blog_section">
-          <h1>Hot news from the <span>blog</span></h1>
-          <div class="single_blog col-md-4 slider-content">
-            <a href="#">
-                <img src="img/1.jpg" alt="">
-                <div class="slider-text">
-                  <h3>This is demo title</h3>
-                  <p> <i class="fa fa-user"></i> By FAHEM <i class="fa fa-clock-o"></i> August 31th, 2014</p>
-                  <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially.</p>
-                </div>
-            </a>
-          </div> 
-          <div class="single_blog col-md-4 slider-content">
-            <a href="#">
-                <img src="img/2.jpg" alt="">
-                <div class="slider-text">
-                  <h3>This is demo title</h3>
-                  <p> <i class="fa fa-user"></i> By FAHEM <i class="fa fa-clock-o"></i> August 31th, 2014</p>                  
-                  <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially.</p>
-                </div>
-            </a>
-          </div> 
-          <div class="single_blog col-md-4 slider-content">
-            <a href="#">
-                <img src="img/3.jpg" alt="">
-                <div class="slider-text">
-                  <h3>This is demo title</h3>
-                  <p> <i class="fa fa-user"></i> By FAHEM <i class="fa fa-clock-o"></i> August 31th, 2014</p>                  
-                  <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially.</p>
-                </div>
-            </a>
-          </div>                              
-      </div>
-    </div>
-  </div>
-</div><!-- blog area end   -->
-
-
-<div class="price_area">
-  <div class="container">
-    <div class="row">
-      <div class="price_section">
-          <h1>Price section</h1>
-              <div class="col-md-12">
-                <div class="pricing-table">
-                  <div class="col-md-4 col-sm-4 col-xs-12 pricing-box first wow bounceInUp animated">
-                    <ul>
-                      <li class="plan-title">
-                        Silver
-                      </li>
-                      <li class="subscription-price oswald">
-                        <span class="currency oswald">$</span>
-                        <span class="price">59</span>
-                        / mon
-                      </li>
-                      <li class="ptop10">
-                        5 Free Websites
-                      </li>
-                      <li>
-                        100 Gb Storage
-                      </li>
-                      <li>
-                        24 / 7 Full Support
-                      </li>
-                      <li>
-                        Cloud Backup
-                      </li>
-                      <li>
-                        5 Admin Panels
-                      </li>
-                      <li>
-                        Free Trials
-                      </li>
-                      <li class="last border-none pbottom40">
-                        No Bonus Points
-                      </li>
-                      <li class="sing-up">
-                        <a href="#" class="animate">Sign Up</a>
-                      </li>
-                    </ul>
-                  </div><!-- end pricing-box -->
-                  <div class="col-md-4 col-sm-4 col-xs-12 pricing-box second featured wow bounceInUp animated">
-                    <ul>
-                      <li class="plan-title">
-                        Gold
-                      </li>
-                      <li class="subscription-price oswald">
-                        <span class="currency oswald">$</span>
-                        <span class="price">79</span>
-                        / mon
-                      </li>
-                      <li class="ptop10">
-                        20 Free Websites
-                      </li>
-                      <li>
-                        500 Gb Storage
-                      </li>
-                      <li>
-                        Full Support
-                      </li>
-                      <li>
-                        Cloud Backup
-                      </li>
-                      <li>
-                        20 Admin Panels
-                      </li>
-                      <li>
-                        Free Trials
-                      </li>
-                      <li class="last border-none pbottom40">
-                        All Bonus Points
-                      </li>
-                      <li class="sing-up">
-                        <a href="#" class="animate">Sing Up</a>
-                      </li>
-                    </ul>
-                  </div><!-- end pricing-box -->
-                  <div class="col-md-4 col-sm-4 col-xs-12 pricing-box last wow bounceInUp animated">
-                    <ul>
-                      <li class="plan-title">
-                        Diamond
-                      </li>
-                      <li class="subscription-price oswald">
-                        <span class="currency oswald">$</span>
-                        <span class="price">99</span>
-                        / mon
-                      </li>
-                      <li class="ptop10">
-                        50 Free Websites
-                      </li>
-                      <li>
-                        1 Tb Storage
-                      </li>
-                      <li>
-                        Full Support
-                      </li>
-                      <li>
-                        Cloud Backup
-                      </li>
-                      <li>
-                        50 Admin Panels
-                      </li>
-                      <li>
-                        Free Trials
-                      </li>
-                      <li class="last border-none pbottom40">
-                        All Bonus Points
-                      </li>
-                      <li class="sing-up">
-                        <a href="#" class="animate">Sing Up</a>
-                      </li>
-                    </ul>
-                  </div><!-- end pricing-box -->
-                </div>
-              </div>
-          
-      </div>
-    </div>
-  </div>
-</div><!-- price area end   -->
-
-
-<div class="testimonial_area">
-  <div class="container">
-    <div class="row">
-      <div class="testimonial_section">
-          <h1>What our <span>client say</span></h1>
-                        <div id="testimonial_carosule" class="owl-carousel owl-theme">
-                            <div class="item"> 
-                               <blockquote>
-                               <img src="img/tm1.png"> 
-                               <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                </p>      
-                              </blockquote>  
-                              <h3>----  kopa Samsu || Kopa Master</h3>                    
-                            
-                            </div> 
-                            <div class="item"> 
-                               <blockquote>
-                               <img src="img/tm1.png"> 
-                               <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                </p>      
-                              </blockquote>  
-                              <h3>----  Kuddus boyati || Baula</h3>                    
-                            
-                            </div> 
-                            <div class="item"> 
-                               <blockquote>
-                               <img src="img/tm1.png"> 
-                               <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                </p>      
-                              </blockquote>  
-                              <h3>----  Rohima || Kamner Beti</h3>                    
-                            
-                            </div> 
-                            <div class="item"> 
-                               <blockquote>
-                               <img src="img/tm1.png"> 
-                               <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                </p>      
-                              </blockquote>  
-                              <h3>----  Khairun sundori || Laika</h3>                    
-                            
-                            </div>                                                                          
-                        </div>          
-      </div>
-    </div>
-  </div>
-</div><!-- testimonial area end   -->
-
-<div class="contact_area">
-  <div class="container">
-    <div class="row">
-      <div class="contact_section">
-          <h1>Contact us</h1>
-          <p>OUR TEAM INCLUDES GREAT THINKERS. YOU WOULD LOVE TO WORK WITH THEM AS THEY ARE JUST AMAZING PEOPLE.</p>
-
-                    <div class="col-md-6">
-                        <div class="contact_form">
-                        <fieldset id="contact_form">
-                            <div id="result"></div>
-                                <label for="name">
-                                <input type="text" name="name" id="name" placeholder="Enter Your Name" />
-                                </label>
-                                
-                                <label for="email">
-                                <input type="email" name="email" id="email" placeholder="Enter Your Email" />
-                                </label>
-                                
-                                <label for="phone">
-                                <input type="text" name="phone" id="phone" placeholder="Phone Number" />
-                                </label>
-                                
-                                <label for="message">
-                                <textarea name="message" id="message" placeholder="Enter Your Name"></textarea>
-                                </label>
-                                <button class="submit_btn" id="submit_btn">Submit</button>
-                                </label>
-                        </fieldset>                           
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="contact_text">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
-                            <h3>contact info</h3>
-                            <ul class="contact_info">
-                                <li>info@fahem.me</li>
-                                <li>south baluadanga,dinajpur</li>
-                                <li>+880174120000,+880174120000,</li>
-                            </ul>
-                            <h3>follow us</h3>
-                            <ul class="contact_social">
-                                <a href="#"><li><i class="fb fa fa-facebook-square"></i></li></a>
-                                <a href="#"><li><i class="tw fa fa-twitter-square"></i></li></a>
-                                <a href="#"><li><i class="rss fa fa-rss-square"></i></li></a>
-                                <a href="#"><li><i class="gp fa fa-google-plus-square"></i></li></a>
-                            </ul>                            
-                        </div>
-                    </div>
-      </div>
-    </div>
-  </div> 
-</div><!-- contact area end   -->
-
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-    
-    <script src="js/wow.js"></script>
-
-    <script src="js/jquery.nicescroll.js"></script>
-    
-    <script type="text/javascript" src="js/jquery.easing.min.js"></script>  
-    <script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
-    <script src="js/imagesloaded.pkgd.min.js"></script>
-
-   <script src="js/skillset.js"></script>
-
-   <script src="js/owl.carousel.js"></script> 
-
-
-   <script src="js/scrollupto.js"></script>
-   <script type="text/javascript" src="js/main.js"></script>
+	<!-- ========== SERVICES - GREY SECTION ========== -->
+	<div id="g">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<h4>Optimaliseren van een huidig energiesysteem bij Ometa</h4>
+					<br>
+				<div class="intern-text">
+					<p>Van 27/02/2023 tot en met 26/05/2023 heb ik mijn stage gelopen bij het bedrijf Ometa. Ometa bied slimme integraties tussen gestructureerde en ongestructureerde gegevens, waardoor optimale informatiestromen ontstaan en bedrijfsprocessen realtime geoptimaliseerd worden voor operationele uitmuntendheid. Naast deze integraties is Ometa ook gericht op groene energie waar er ter plaatse een gehele installatie zich bevind waaronder zonnepanelen, omvormers en batterijen voor productie en opslag van energie. Deze opgewekte energie werd niet op de meest efficiënte manier gebruikt waardoor er pieken ontstonden van injectie (energie van bedrijf naar elektriciteitsnet) en extractie (energie van elektriciteitsnet naar bedrijf).</p>
+					<p>Het doel was om een algoritme te creeëren dat let op injectie en extractie, let op de uurlijkse prijzen aan de hand van het dynamisch tarief en toestellen bijstuurd waar nodig om een hogere efficiëntie in energieverbruik te behalen. Ook werd er verwacht om het algoritme zo configureerbaar mogelijk te maken.</p>
+					<p>Als start werd er onderzocht op welke manier toestellen aagestuurd konden worden en welke apparaten hierbij nodig waren. Vervolgens werd een eerste theoretische uitwerking van het algoritme gemaakt en voorgesteld. Na aanpassingen en een goedkeuring werd aan de opbouw van het algoritme begonnen. Gedurende de ontwikkeling van het algoritme werden er eerst testen gedaan op basis van gesimuleerde data dat vervolgens vervangen werd door echte data.</p>
+					<p>Deze stage werd afgesloten met een algoritme dat recente data kon uitlezen, bekeek wat er hoorde te gebeuren en stuurde bij waar nodig.</p>
+					<p>Hieronder vind u de documenten die meer in detail gaan over deze stage:</p>
+					<ul>
+						<li><a href="assets/files/Plan_van_Aanpak_SmartPower.pdf">Plan van aanpak</a></li>
+						<li><a href="assets/files/Documentatie_project_SmartPower.pdf">Documentatie</a></li>
+						<li><a href="">Reflectie of samenvatting</a></li>
+					</ul>
+				</div>
+				</div>
+				<div class="col">
+					<img src="assets/img/pc_testopstelling.jpg" alt="documentatie screenshot" class="doc-picture">
+					<img src="assets/img/testopstelling.jpg" alt="documentatie screenshot" class="doc-picture">
+				</div>
+			</div>
+		</div><!-- /container -->
+	</div><!-- /g -->
+	
+	<!-- ========== WHITE SECTION ========== -->
+	<section id="projects" name="projects"></section>
+	<div id="w">
+		<div class="container">
+			<div class="row">
+				<div class="centered">
+					<h3>EN OVER MIJN ANDERE GEREALISEERDE PROJECTEN</h3>
+				</div>
+			</div>
+		</div><!-- /container -->
+	</div><!-- /w -->
+	
+	<!-- ========== ABOUT - GREY SECTION ========== -->
+	<div id="g">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<img src="assets/img/buttons.jpg" alt="buttonsProjectSE&A" title="System Engineering & Analysis" height="400" data-bs-toggle="modal" data-bs-target="#Modal" class="picture"/>
+					<!-- Modal -->
+					<div class="modal fade" id="Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+						<div class="modal-dialog modal-xl modal-dialog-scrollable">
+							<div class="modal-content">
+								<div class="modal-body">
+									<div class="modal-box">
+										<h1 class="modal-header">System Engineering & Analysis</h1>
+										<div class="row align-items-center">
+											<div class="col">
+												<img src="assets/img/screen.jpg" alt="screenProjectSE&A" height="400"/>
+											</div>
+											<div class="col">
+											<p>Als project voor het vak System Engineering & Analysis werd er van een opdrachtgever (docent) de opdracht gegeven om in een team een zogenaamd Magic Device uit te werken. Het team bestond uit mezelf en twee andere medestudenten van de richting Cloud & Cyber Security. Het Magic Device was een algemene benaming voor een toestel welk een focus had op het vermaken van de gebruiker. Dit toestel zou op een bepaalde plaats in een vooraf bepaald lokaal terecht zou komen.</p>
+											</div>	
+										</div>
+										<div class="row align-items-center">
+											<div class="col">
+												<p>Dit was slechts een Proof Of Concept waar het voldoende was om enkel een ruw werkend voorbeeld te bouwen dat uitgewerkt werd op de campus. Met de finale versie van het Magic Device kon u het nieuws opvragen van twee verschillende online kranten, elk gesorteerd volgens categorie waar uitbreiding mogelijk was. Een andere mogelijkheid was om een camera te activeren, een foto te nemen en deze door te sturen naar een zelf in te voeren e-mailadres. Een derde en laatste mogelijkheid was om een enquête in te vullen en het gemiddelde te laten zien op een grafiek.</p>
+											</div>
+											<div class="col">
+												<img src="assets/img/buttons.jpg" alt="buttonsProjectSE&A" height="400" />
+											</div>
+											<div class="end">
+												<p>Van dit project heb ik mij beziggehouden met de code voor het versturen van de e-mails met de foto's, het hardware gedeelte dat bestond uit het plaatsen van de drukknoppen en verbinden met de Raspberry Pi en mijn mede teamlid geholpen met de pagina van de camera. </p>
+												<br>
+												<p>Hieruit heb ik geleerd hoe een e-mail te versturen via een Python script en hoe een USB-camera te gebruiken in combinatie met een Raspberry Pi.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<img src="assets/img/elevator.jpg" alt="buttonsProjectSE&A" title="IoT Essentials" height="400" data-bs-toggle="modal" data-bs-target="#Modal2" class="picture"/>
+					<!-- Modal -->
+					<div class="modal fade" id="Modal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+						<div class="modal-dialog modal-xl modal-dialog-scrollable">
+							<div class="modal-content">
+								<div class="modal-body">
+									<div class="modal-box">
+										<h1 class="modal-header">IoT Essentials</h1>
+										<div class="row align-items-center">
+											<div class="col">
+												<img src="assets/img/controls.jpg" alt="screenProjectSE&A" id="img-width"/>
+											</div>
+											<div class="col pad-bot">
+												<p>Voor het vak IoT Essentials werd de opdracht gegeven om een lift te construeren met behulp van een Raspberry Pi, een potentiometer, een stappenmotor en een ultrasone sensor. Deze opdracht was individueel en werd thuis gemaakt als miniatuurversie.</p>
+												<p>De lift werd aangestuurd door middel van een potentiometer waarvan de Raspberry Pi de waarde leest. Deze waarde is een afstandswaarde dat in dit geval in centimeters gelezen werd door de ultrasone sensor die zich onderaan de lift bevind en de afstand van het platform meet.</p>
+											</div>	
+										</div>
+										<div class="row align-items-center">
+											<div class="col">
+												<p>Aan de hand van welke waarde de gebruiker instelt in de potentiometer, wil de ultrasone sensor dezelfde waarde meten van het platform, is deze te hoog dan stuurt de Raspberry Pi de stappenmotor aan om deze naar beneden te laten draaien waardoor het platform daalt en laat deze naar boven draaien wanneer het platform te laag is. De metingen worden ook live getoond op een display dat verbonden is met de Raspberry Pi en doorgestuurd naar een visualisatie website genaamd uBeac om de metingen online te zien in grafiekvorm.</p>
+											</div>
+											<div class="col">
+												<img src="assets/img/elevator.jpg" alt="buttonsProjectSE&A" height="400" />
+											</div>
+											<div class="end">
+												<p>In dit project was het noodzakelijk om zelf een constructie te voorzien om deze lift te kunnen realiseren. Zowel de schacht als de as dat aan de motor hangt en het platform is een eigen ontwerp wat ik persoonlijk tof vond om te ontwerpen en 3D printen.</p>
+												<br>
+												<br>
+												<p>Hier heb ik nog redelijk wat bijgeleerd van de software Fusion 360 wat er allemaal mogelijk is. Van Python en uBeac heb ik eveneens bijgeleerd hoe deze connectie mogelijk te maken en vervolgens data te versturen naar uBeac.</p>
+												<br>
+												<p>Een demonstratie van deze lift is <a href="https://www.youtube.com/watch?v=Vye8ymNkSFM">hier</a> te vinden.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<img src="assets/img/total.jpg" alt="buttonsProjectSE&A" title="IoT Advanced" height="400" data-bs-toggle="modal" data-bs-target="#Modal3" class="picture"/>
+					<!-- Modal -->
+					<div class="modal fade" id="Modal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+						<div class="modal-dialog modal-xl modal-dialog-scrollable">
+							<div class="modal-content">
+								<div class="modal-body">
+									<div class="modal-box">
+										<h1 class="modal-header">IoT Advanced</h1>
+										<div class="row align-items-center">
+											<div class="col pad-bot">
+												<img src="assets/img/gpsModule.jpg" alt="screenProjectSE&A" id="img-width"/>
+											</div>
+											<div class="col">
+												<p>Als project voor het vak IoT Advanced werd er van een opdrachtgever (firma Coeck NV) de opdracht gegeven om in een team een visualisatie te maken over de locatie van een eigen A-frame waar tegels op geplaatst worden om te transporteren. Dit was slechts als Proof of Concept. Het team bestond uit mezelf en twee andere medestudenten van de richting Internet of Things.</p>
+											</div>	
+										</div>
+										<div class="row align-items-center">
+											<div class="col">
+												<p>In de visualisatie van het project werd er verwacht dat er een detectie ingebouwd werd dat nakeek en liet weten of het frame geladen was of niet door middel van een ultrasone sensor. Een tweede eis was dat in de visualisatie te zien was waar de frames van de andere teams zich bevonden. Nog een derde eis is dat er alerts gegenereerd werden als het frame verplaatst, gevuld of geleegd werd. Tot slot werd er nog een demo verwacht waar er een korte video werd opgenomen en gezet werd op YouTube.</p>
+											</div>
+											<div class="col">
+												<img src="assets/img/total.jpg" alt="buttonsProjectSE&A" id="img-width"/>
+											</div>
+											<div class="end">
+												<p>Dit werd gerealiseerd door één teamlid al de componenten te bezitten, een ander teamlid de code te schrijven voor de gps module en de ultrasone sensor en het derde teamslid om de database te maken.</p>
+												<br>
+												<p>Van dit project heb ik mij beziggehouden met de code van de gps module. De componenten lagen ook bij mij ter plaatse waar ik de opstelling opgebouwd alsook het filmpje opgenomen had. Dit was de eerste interactie met een GPS-module en heb hieruit geleerd hoe belangrijk de plaatsing van de ontvanger is.</p>
+												<br>
+												<p>Een demonstratie van deze opstelling is <a href="https://www.youtube.com/watch?v=kvfrGju2CSo">hier</a> te vinden.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<img src="assets/img/appBluetooth.jpg" alt="buttonsProjectSE&A" title="Keuzeproject 2" height="400" data-bs-toggle="modal" data-bs-target="#Modal4" class="picture"/>
+					  <!-- Modal -->
+					<div class="modal fade" id="Modal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+						<div class="modal-dialog modal-xl modal-dialog-scrollable">
+							<div class="modal-content">
+								<div class="modal-body">
+									<div class="modal-box">
+										<h1 class="modal-header">Keuzeproject 2</h1>
+										<div class="row align-items-center">
+											<div class="col">
+												<img src="assets/img/musicBluetooth.jpg" alt="screenProjectSE&A" id="img-width"/>
+											</div>
+											<div class="col">
+												<p>Voor keuzeproject 2 kon men kiezen tussen elke studierichting in IT Factory waar elke richting een eigen project had. Hierbij koos ik voor IoT en had als onderwerp Raspbee. Deze opdracht bestond uit het monitoren van bijenkasten maar sinds dit tijdens de beginperiode van corona was werd de opdracht veranderd in het besturen van de Raspberry Pi aan de hand van Bluetooth.</p>
+											</div>	
+										</div>
+										<div class="row align-items-center">
+											<div class="col">
+												<p>De eerste taak was om via Bluetooth muziek door te sturen van een smartphone naar de Raspberry Pi waar oortjes gebruikt werden om te luisteren of dit succesvol was. Een tweede taak bestond uit een led te koppelen aan de Raspberry Pi en vervolgens aan te sturen met een smartphone. Hiervoor werd een app gemaakt voor de smartphone waar eerst verbinding gemaakt werd met de Raspberry Pi via bluetooth en vervolgens door middel van de app de led aangestuurd kon worden.</p>
+											</div>
+											<div class="col">
+												<img src="assets/img/appBluetooth.jpg" alt="buttonsProjectSE&A" id="img-height"/>
+											</div>
+											<div class="end">
+												<p>In dit project heb ik mij beziggehouden met de eerste taak waar de muziek van mijn smartphone verstuurd werd naar de Raspberry Pi via bluetooth. Het deel dat ik uitgevoerd had werd door mezelf gefilmd en werd later samengevoegd met de video van de tweede taak.</p>
+												<br>
+												<p>Tijdens dit project heb ik bijgeleerd hoe een verbinding kan gemaakt worden met een Raspberry Pi via bluetooth alsook het versturen van muziek naar een Raspberry Pi. </p>
+												<br>
+												<p>Een demonstratie van dit project is <a href="https://www.youtube.com/watch?v=BeyZLshqqUA">hier</a> te vinden.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!-- /container -->
+	</div><!-- /g -->
+	<div id="f">
+		<div class="container">
+			<p class="no-margin">Taro Verschueren | 2023</p>
+		</div>
+	</div>
+	
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+	<script src="assets/js/main.js"></script>
 </body>
 </html>
